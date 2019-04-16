@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgQr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/default_qr" />
+
+            <include layout="@layout/layout_avloading" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.lai.library.ButtonStyle
+                android:id="@+id/btnGenerateQR"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="@string/generateQR"
+                android:textAllCaps="false"
+                android:textColor="@color/White"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:corner="10dp"
+                app:normal_color="@color/RoyalBlue"
+                app:press_color="@color/RoyalBluePressed"
+                app:stroke_color="@color/RoyalBlue"
+                app:stroke_width="0dp" />
+
+            <com.lai.library.ButtonStyle
+                android:id="@+id/btnScanQR"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/scanQR"
+                android:textAllCaps="false"
+                android:textColor="@color/White"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:corner="10dp"
+                app:normal_color="@color/Orange"
+                app:press_color="@color/OrangePressed"
+                app:stroke_color="@color/Orange"
+                app:stroke_width="0dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

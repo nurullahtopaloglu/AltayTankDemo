@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AltayTankDemo</string>
+
+    <string name="generateQR">QR Oluştur</string>
+    <string name="scanQR">QR TARA</string>
+    <string name="verifyPayment">ÖDEMEYİ ONAYLA</string>
+
+    <string name="stationName">İstasyon</string>
+    <string name="pompNumber" >Pompa No</string>
+    <string name="priceAmount">Tutar</string>
+    <string name="paymentSuccessful">Ödemeniz başarıyla tamamlanmıştır.</string>
+    <string name="networkError">Ağ bağlantısı başarısız. Lütfen interneti kontrol ediniz!</string>
+</resources>

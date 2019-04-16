@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AltayTankDemo</string>
+
+    <string name="generateQR">Generate QR</string>
+    <string name="scanQR">SCAN QR</string>
+    <string name="verifyPayment">VERIFY PAYMENT</string>
+
+    <string name="stationName">Station</string>
+    <string name="pompNumber">Pomp Number</string>
+    <string name="priceAmount">Price Amount</string>
+    <string name="comma">:</string>
+    <string name="paymentSuccessful">Your payment is successful</string>
+    <string name="networkError">Network Error, please check your Internet!</string>
+</resources>
